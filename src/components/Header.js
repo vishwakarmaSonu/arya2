@@ -1,58 +1,46 @@
 import React from 'react'
-import {Navbar, Nav, Container, NavDropdown} from 'react-bootstrap'
+import { useDispatch, useSelector } from 'react-redux'
+import { Navbar, Nav, Container, Row, NavDropdown } from 'react-bootstrap'
+
 
 
 function Header() {
-
-  // const userLogin = useSelector(state => state.userLogin)
-  // const {userInfo} = userLogin
-  // const dispatch = useDispatch()
-
-  //   const logoutHandler = () => {
-  //       dispatch(logout())
-  //   }
-  return (
     
-      <header>
+    
+
+    return (
+        <header>
+            <Navbar  style={{background:"#ECB390", color:"black"}} expand="lg" collapseOnSelect>
+                <Container>
+                   
+                        <Navbar.Brand href='/'> <span style={{color:"green"}}>Vishwakarma Arts </span></Navbar.Brand>
+                    
+
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Collapse id="basic-navbar-nav">
+                        
+                        <Nav className="ml-auto">
+                        
+                     
         
-    <Navbar bg="dark"   variant="dark"  expand="lg" collapseOnSelect>
-      <Container>
-     
-        <Navbar.Brand href='/'>Vishwakarma Arts</Navbar.Brand>
-      
-
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ml-auto">
-
-         
-            <Nav.Link  href='/'><i className="fas fa-shopping-cart"></i>Contact</Nav.Link>.
-            <Nav.Link  href='/'><i className="fas fa-user"></i>About</Nav.Link>
-
-            {/* {userInfo ? (
-                                <NavDropdown title={userInfo.name} id='username'>
-                                    <a href='/profile'>
-                                        <NavDropdown.Item>Profile</NavDropdown.Item>
-                                    </a>
-
-                                    <NavDropdown.Item onClick={logoutHandler}>Logout</NavDropdown.Item>
-
-                                </NavDropdown>
-                            ) : (
-                                    <a href='/login'>
-                                        <Nav.Link><i className="fas fa-user"></i>Login</Nav.Link>
-                                    </a>
-                                )} */}
-         
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+                           
+                        
+                           <Nav.Link href='/about'>About</Nav.Link>
+                           <Nav.Link href='https://vishwakarmaartorder.pythonanywhere.com/app1/touch'>Contact</Nav.Link>
 
 
-      </header>
-    
-  )
+                       
+       
+                            
+                           
+
+
+                        </Nav>
+                    </Navbar.Collapse>
+                </Container>
+            </Navbar>
+        </header>
+    )
 }
 
 export default Header

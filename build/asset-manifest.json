@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/arya2/static/css/main.4035390e.css",
-    "main.js": "/arya2/static/js/main.710a5759.js",
-    "static/js/787.6f04928a.chunk.js": "/arya2/static/js/787.6f04928a.chunk.js",
-    "index.html": "/arya2/index.html",
-    "main.4035390e.css.map": "/arya2/static/css/main.4035390e.css.map",
-    "main.710a5759.js.map": "/arya2/static/js/main.710a5759.js.map",
-    "787.6f04928a.chunk.js.map": "/arya2/static/js/787.6f04928a.chunk.js.map"
+    "main.css": "/static/css/main.e136c8d1.css",
+    "main.js": "/static/js/main.fe041eac.js",
+    "static/js/787.6f04928a.chunk.js": "/static/js/787.6f04928a.chunk.js",
+    "index.html": "/index.html",
+    "main.e136c8d1.css.map": "/static/css/main.e136c8d1.css.map",
+    "main.fe041eac.js.map": "/static/js/main.fe041eac.js.map",
+    "787.6f04928a.chunk.js.map": "/static/js/787.6f04928a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4035390e.css",
-    "static/js/main.710a5759.js"
+    "static/css/main.e136c8d1.css",
+    "static/js/main.fe041eac.js"
   ]
 }

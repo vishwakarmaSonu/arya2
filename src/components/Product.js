@@ -9,15 +9,17 @@ import Rating from './Rating'
 function Product({product}) {
   return (
     <Card className="my-3 p-3 rounded">
-       <a href={`/product/${product._id}`}>
+        <a href='https://vishwakarmaartorder.pythonanywhere.com/app1/login'>
             <Card.Img  src={product.image}/>
-            </a>
+          </a>
+            
         <Card>
-       <a href={`/product/${product._id}`}>
+       <a href='https://vishwakarmaartorder.pythonanywhere.com/app1/login'>
             <Card.Title as="div">
                 <strong>{product.name}</strong>
                 </Card.Title>  
                 </a>
+                
       
         </Card>
         
@@ -28,7 +30,7 @@ function Product({product}) {
                     </div>              
                             </Card.Text>
         < Card.Text as="h3">
-                    ${product.price}
+                    Rs.{product.price}
         </Card.Text>
 
     </Card>
